@@ -28,7 +28,7 @@ const app = express();
 
 
 // 라우팅, home폴더에 있는 자바스크립트를 읽어와줘
-const home = require("./routes/home")
+const home = require("./src/home")
 
 //앱 세팅
 app.set("views","./views");
